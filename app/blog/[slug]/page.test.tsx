@@ -7,5 +7,5 @@ import Page from "./page";
 
 it("App Router: Works with dynamic route segments", () => {
   render(<Page />);
-  expect(screen.getByRole("heading")).toHaveTextContent("Slug");
+  expect(screen.getByRole("heading")).toHaveTextContent("SlugXXX");
 });
